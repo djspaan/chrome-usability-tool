@@ -1,0 +1,37 @@
+{
+  "name": "ease",
+  "version": "1.0.0",
+  "description": "Navigate the web with EASE!",
+  "main": "ease.js",
+  "scripts": {
+    "start": "webpack-dev-server --history-api-fallback --inline --progress"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ml-cart": "^1.0.8",
+    "ml-dataset-iris": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babelify": "^8.0.0",
+    "browserify": "^16.2.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-concat-util": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0",
+    "webpack": "^4.9.1",
+    "webpack-cli": "^2.1.4",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  }
+}
